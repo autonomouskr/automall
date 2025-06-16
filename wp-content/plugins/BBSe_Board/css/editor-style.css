@@ -1,0 +1,279 @@
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Headings
+ * 3.0 - Text Elements
+ * 4.0 - Links
+ * 5.0 - Alignment
+ * 6.0 - Tables
+ * 7.0 - Images
+ * 8.0 - RTL
+ * ----------------------------------------------------------------------------
+ */
+
+
+/**
+ * 1.0 Body
+ * ----------------------------------------------------------------------------
+ */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+html .mceContentBody {
+  margin:0 auto;
+  padding:0 30px;
+  max-width: 930px;
+  height:100%;
+  font-family:'나눔고딕','NanumGothic','Nanum Gothic',Arial, Helvetica, sans-serif;
+  font-size:13px;
+}
+
+body {
+	color: #2b2b2b;
+	font-family:'나눔고딕','NanumGothic','Nanum Gothic',Arial, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight: 400;
+	line-height: 1.5em;
+	vertical-align: baseline;
+
+}
+
+
+/**
+ * 2.0 Headings
+ * ----------------------------------------------------------------------------
+ */
+
+h1 {font-size:2em;}
+h2 {font-size:1.5em;}
+h3 {font-size:1.17em;}
+h4 {font-size:1em;}
+h5 {font-size:0.83em;}
+h6 {font-size:0.7em;}
+
+
+h1 {line-height:1.4em;}
+h2 {line-height:1.86em;}
+h3 {line-height:2.39em;}
+h4 {line-height:2.4em;}
+h5 {line-height:2.83em;}
+h6 {line-height:3.99em;}
+
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child {
+	margin-top: 0;
+}
+
+
+/**
+ * 3.0 Text Elements
+ * ----------------------------------------------------------------------------
+ */
+
+address {font-style:italic;margin-bottom:24px;}
+abbr[title],
+acronym[title] {border-bottom:1px dotted #2b2b2b;cursor:help;}
+
+b,strong {font-weight:700;}
+cite,dfn,em,i {font-style:italic;}
+mark,ins {background:#fff9c0;text-decoration:none;}
+p {margin-bottom:24px;}
+code,kbd,tt,var,samp,pre {font-family:monospace, serif;font-size:15px;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;line-height:1.6;}
+pre {margin-bottom:24px;max-width:100%;overflow:auto;padding:12px;white-space:pre;white-space:pre-wrap;word-wrap:break-word;
+    border:1px solid rgba(0, 0, 0, 0.1); border-radius:3px;
+    -webkit-box-sizing:border-box;-moz-box-sizing:border-box; box-sizing:border-box;}
+
+code {padding:5px;display:block;font-family:"Courier New", Courier, monospace;line-height:1.2;border:1px solid #efefef;border-radius:3px;}
+code:before {display:block;margin:0;padding:5px;content:'■Source';background:#efefef;border-radius:3px;}
+
+blockquote, q {-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none;quotes:none;}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {content:"";content:none;}
+blockquote {margin:15px;padding:0 0 0 10px;/*color:#767676;*/font-size:19px;font-style:italic;line-height:1.8em;border-left:4px solid skyblue}
+blockquote cite,
+blockquote small {color:#2b2b2b;font-size:16px;font-weight:400;line-height:1.5;}
+blockquote em,
+blockquote i,
+blockquote cite {font-style:normal;}
+blockquote strong,
+blockquote b {font-weight:400;}
+
+small {font-size:smaller;}
+big {font-size:125%;}
+
+sup,sub {font-size:75%;height:0;line-height:0;position:relative;vertical-align:baseline;}
+sup {bottom:1ex;}
+sub {top:.5ex;}
+
+dl {margin-bottom:24px;}
+dt {font-weight:bold;}
+dd {margin-bottom:24px;}
+
+ul,ol {list-style:none;margin:0 0 24px 20px;}
+ul {list-style:disc;}
+ol {list-style:decimal;}
+li > ul, li > ol {margin:0 0 0 20px;}
+
+del {color:#767676;}
+hr {background-color:rgba(0, 0, 0, 0.1);border:0;height:1px;margin-bottom:23px;}
+
+
+/**
+ * 4.0 Links
+ * ----------------------------------------------------------------------------
+ */
+
+a {color:#282828; text-decoration:none}
+a:link {text-decoration:none}
+a:visited {text-decoration:none}
+a:focus {outline:thin dotted;}
+a:hover,
+a:active {color:#777; text-decoration:none;outline:0;}
+
+
+/**
+ * 5.0 Alignment
+ * ----------------------------------------------------------------------------
+ */
+
+.alignleft {
+	float: left;
+	margin: 7px 24px 7px 0;
+}
+
+.alignright {
+	float: right;
+	margin: 7px 0 7px 24px;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin: 7px auto;
+}
+
+blockquote.alignleft,
+blockquote.alignright {
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding-top: 17px;
+	width: 50%;
+}
+
+blockquote.alignleft p,
+blockquote.alignright p {
+	margin-bottom: 17px;
+}
+
+
+/**
+ * 6.0 Tables
+ * ----------------------------------------------------------------------------
+ */
+
+.mceItemTable {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-width: 1px 0 0 1px;
+	border-collapse: separate;
+	border-spacing: 0;
+	font-size: 14px;
+	line-height: 1.2857142857;
+	margin-bottom: 24px;
+	width: 100%;
+}
+
+.mceItemTable th,
+.mceItemTable caption {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-width: 0 1px 1px 0;
+	font-weight: 700;
+	padding: 8px;
+	text-align: left;
+	text-transform: uppercase;
+	vertical-align: baseline;
+}
+
+.mceItemTable td {
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	border-width: 0 1px 1px 0;
+	font-family: Lato, sans-serif;
+	font-size: 14px;
+	padding: 8px;
+	vertical-align: baseline;
+}
+
+
+/**
+ * 7.0 Images
+ * ----------------------------------------------------------------------------
+ */
+
+img {
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+
+/**
+ * 8.0 RTL
+ * ----------------------------------------------------------------------------
+ */
+
+html .mceContentBody.rtl {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+.rtl ol,
+.rtl ul {
+	margin-left: 0;
+	margin-right: 24px;
+}
+
+.rtl .wp-caption,
+.rtl tr th {
+	text-align: right;
+}
+
+.rtl td {
+	text-align: right;
+}
+
+
+/**
+ * 9.0 FORMS
+ * ----------------------------------------------------------------------------
+ */
+
+input[type="text"],
+input[type="password"],
+select,
+textarea {margin:0;padding:3px 5px 2px;line-height:20px;border:1px solid #A9A9A9}
+
+/*input[type="file"],*/
+input[type="reset"],
+input[type="submit"],
+button {margin:0;padding:3px 8px 2px;line-height:20px;font-family:'Nanum Gothic', Dotum, '돋움', Arial, sans-serif, FontAwesome;font-size:12px;
+          border:1px solid #A9A9A9;border-radius:3px;cursor:pointer;box-sizing:border-box;
+          background : -webkit-linear-gradient(top, rgb(255, 255, 255) 00%, rgb(240, 240, 240) 100%);
+          background : -moz-linear-gradient(top, rgb(255, 255, 255) 00%, rgb(240, 240, 240) 100%);
+          background : -o-linear-gradient(top, rgb(255, 255, 255) 00%, rgb(240, 240, 240) 100%);
+          background : -ms-linear-gradient(top, rgb(255, 255, 255) 00%, rgb(240, 240, 240) 100%);
+          background : -linear-gradient(top, rgb(255, 255, 255) 00%, rgb(240, 240, 240) 100%);
+}
+
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+button:hover {
+          background : -webkit-linear-gradient(top, rgb(240, 240, 240) 00%, rgb(255, 255, 255) 100%);
+          background : -moz-linear-gradient(top, rgb(240, 240, 240) 00%, rgb(255, 255, 255) 100%);
+          background : -o-linear-gradient(top, rgb(240, 240, 240) 00%, rgb(255, 255, 255) 100%);
+          background : -ms-linear-gradient(top, rgb(240, 240, 240) 00%, rgb(255, 255, 255) 100%);
+          background : -linear-gradient(top, rgb(240, 240, 240) 00%, rgb(255, 255, 255) 100%);
+}

@@ -1,0 +1,306 @@
+/* Common */
+#bbse_membership input, #bbse_membership textarea, #bbse_membership select, #bbse_membership button, #bbse_membership table, #bbse_membership p, #bbse_membership h1, #bbse_membership h2, #bbse_membership h3, #bbse_membership h4, #bbse_membership h5, #bbse_membership h6, #bbse_membership ul, #bbse_membership ol, #bbse_membership li, #bbse_membership dl, #bbse_membership dt, #bbse_membership dd, #bbse_membership table, #bbse_membership th, #bbse_membership td, #bbse_membership form, #bbse_membership fieldset, #bbse_membership legend, #bbse_membership input, #bbse_membership textarea, #bbse_membership button, #bbse_membership select {font-size:14px;color:#545454;margin:0;padding:0}
+#bbse_membership input, #bbse_membership textarea, #bbse_membership select, #bbse_membership button, #bbse_membership table{font-family:'돋움',Tahoma,AppleGothic,sans-serif;font-size:14px;color:#545454;}
+#bbse_membership img, #bbse_membership fieldset{border:0}
+#bbse_membership ul, #bbse_membership ol{list-style:none}http://portfolio.nayana.com/~dev8_001/plugin/join/step1_login.html
+#bbse_membership em, #bbse_membership address{font-style:normal}
+#bbse_membership a{text-decoration:none;color:#666;}
+#bbse_membership a:hover, #bbse_membership a:active, #bbse_membership a:focus{text-decoration:none;}
+#bbse_membership .bold {font-weight:bold;}
+#bbse_membership .f12 {font-size:12px;font-family:돋움;}
+
+#bbse_membership .login_box{margin:0;border:0;padding:60px 20px;margin:0 auto;}
+#bbse_membership .login_box fieldset{margin:0;padding:0;border:0}
+#bbse_membership .login_box legend{visibility:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:0}
+#bbse_membership .login_box .item{position:relative;}
+#bbse_membership .login_box .i_label{display:none;display:block;position:static;top:9px;font:bold 11px Tahoma}
+#bbse_membership .login_box .i_text{display:none;display:block;border:1px solid #b7b7b7;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;background:#fff;font:14px "돋움",Tahoma;height:44px;color:#767676;margin:3px 0;width:100%;vertical-align:middle;}
+#bbse_membership .login_box input {width:100%;}
+#bbse_membership .login_box .open_alert {color:#ed1c24;text-align:center;margin:15px 0;}
+#bbse_membership .login_box .help{float:none;display:block;position:relative;margin:0;border:0;margin:15px 0; font-size:12px;}
+#bbse_membership .login_box .help li{display:block;float:none;margin:0;padding:0 6px 0 8px;margin-bottom:5px; background:url(../images/bl1.gif) no-repeat 0 5px;}
+#bbse_membership .login_box .help li:before {content:'· ';font-weight:bold;}
+#bbse_membership .login_box .help a{padding:0;background:none;color:#767676;line-height:1;text-decoration:none}
+#bbse_membership .login_box .help a:active,
+#bbse_membership .login_box .help a:focus{color:#333;text-decoration:underline}
+
+#bbse_membership .join_box2{margin:0;border:0;background:#fff;padding:60px 20px;margin:0 auto;}
+#bbse_membership .join_box2 h1 {font-size:18px;padding-bottom:10px;margin-bottom:20px; border-bottom:2px solid #999;}
+#bbse_membership .join_box2 .id {color:#ed1c24;text-align:center;margin:15px 0;}
+#bbse_membership .join_box2 p {line-height:28px;}
+
+#bbse_membership .idpw1{margin:0;border:0;background:#fff;padding:60px 20px;margin:0 auto;}
+#bbse_membership .idpw1 h1 {font-size:18px;padding-bottom:10px;margin-bottom:20px; border-bottom:2px solid #999;}
+#bbse_membership .idpw1 .id {color:#ed1c24;text-align:center;margin:15px 0;}
+#bbse_membership .idpw1 p {line-height:28px;}
+
+#bbse_membership .mail_box {border:1px solid #dcdcdc;font-size:14px;font-family:"굴림",Tahoma,AppleGothic,sans-serif;color:#333;line-height:1.6em;}
+#bbse_membership .mail_box .logo {padding:35px 0;background:#f7f7f7;min-height:40px;margin:0;border-bottom:1px solid #dcdcdc;text-align:center;}
+#bbse_membership .mail_box h1{display:none;}
+#bbse_membership .mail_box .mail_con {margin:35px;word-break:break-all}
+#bbse_membership .mail_box .mail_con .name {font-size:18px;width:100%;border-bottom:1px solid #dcdcdc;padding-bottom:20px;}
+#bbse_membership .mail_box .mail_con .name span {font-weight:bold;}
+#bbse_membership .mail_box .mail_con .click {margin:25px 0;}
+#bbse_membership .mail_box .mail_con a {color:#0072bc;margin:25px 0;}
+#bbse_membership .mail_box .url {padding:35px 0;background:#f7f7f7;min-height:20px;margin:0;color:#777;font-size:12px;text-align:center;}
+
+#bbse_membership .zipcode {margin:0;border:0;padding:0;margin:0 auto;font-size:12px;}
+#bbse_membership .zipcode h1{padding:10px;font-size:14px;font-weight:bold;background:#343b4b;color:#fff}
+#bbse_membership .zipcode ul.tab_menu, #bbse_membership .zipcode ul.tab_menu_one { width:100%;border-bottom:1px solid #788092;margin:0 0 15px 0; padding:0; height:32px;line-height:28px; list-style:none; font-size:11px;background:#f1f1f1;}
+#bbse_membership .zipcode ul.tab_menu li {float:left; width:50%; background:#f1f1f1; color:#788092; text-align:center; cursor:pointer;padding-top:4px;}
+#bbse_membership .zipcode ul.tab_menu_one li {width:100%; background:#f1f1f1; color:#788092; text-align:center; cursor:pointer;padding-top:4px;}
+#bbse_membership .zipcode ul li.on {color:#fff;font-weight:bold;}
+#bbse_membership .zipcode ul.tab_menu li.last {border-right:0}
+#bbse_membership .zipcode ul > li.on {background-color:#7b8eb8 !important;}
+#bbse_membership .zipcode ul > li.on a span, #bbse_membership .zipcode ul > li:hover a span,#bbse_membership .zipcode ul > li:active a span { color:#fff;font-weight:bold;letter-spacing:-1px;}
+#bbse_membership .zipcode .clear {clear:both;}
+#bbse_membership .zipcode .box1 {position:relative;margin:0;border:0;padding:0 120px 0 30px;margin:0 auto;}
+/*#bbse_membership .zipcode .btn_d {position:absolute;bottom:2px;right:30px;}*/
+#bbse_membership .zipcode .zip_btn1 {position:absolute;top:2px;right:30px;}
+#bbse_membership .zipcode .zip_btn2 {position:absolute;top:22px;right:30px;}
+#bbse_membership .zipcode .radio {display:inline;width:14px;height:14px;}
+#bbse_membership .zipcode input {width:100%;border:1px solid #b7b7b7;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;background:#fff;font:14px "돋움",Tahoma;height:26px;color:#767676;margin:3px 0;vertical-align:middle;}
+#bbse_membership .zipcode .info1 {text-align:center;display:block;padding:3px;font-size:11px;}
+#bbse_membership .zipcode .info2 {text-align:center;display:block;padding:8px 0 2px 5px;border-top:1px solid #7b8eb8;height:18px;margin-top:10px;font-size:11px;color:#51638a;}
+
+#bbse_membership .zipcode .info3 {max-height:220px;overflow-y:scroll;overflow-x:hidden;} /* 2014-04-24  */
+#bbse_membership .zipcode .info3 p {text-align:center;display:block;padding:8px 0 5px 0;border-top:3px solid #7b8eb8;border-bottom:1px solid #ddd;background:#f7f7f7;}
+#bbse_membership .zipcode .info3 {margin:0;padding:0}
+#bbse_membership .zipcode .info3 li {display:block;margin:0;padding:8px 10px;border-bottom:1px solid #ddd;font-size:11px;line-height:1.4em;}
+#bbse_membership .zipcode .info3 li:hover {background-color:#7B8EB8;}
+#bbse_membership .zipcode .info3 li a:hover {color:#333;}
+#bbse_membership .zipcode .info3 li span.left {width:90%;}
+#bbse_membership .zipcode .info3 li span.right {float:right;right:5px;margin-top:-2px;padding:2px 8px;background:#7b8eb8;color:#fff;}
+
+#bbse_membership .zipcode .info4 p {text-align:center;display:block;padding:8px 0 5px 0;border-top:3px solid #7b8eb8;border-bottom:1px solid #ddd;background:#f7f7f7;}
+#bbse_membership .zipcode .info4 {margin:0;padding:0}
+#bbse_membership .zipcode .info4 li {display:block;margin:0;padding:8px 10px;border-bottom:1px solid #ddd;font-size:11px;line-height:1.4em;}
+#bbse_membership .zipcode .info4 li:hover {background-color:#7B8EB8;}
+#bbse_membership .zipcode .info4 li a:hover {color:#333;}
+#bbse_membership .zipcode .info4 li span.left {width:90%;}
+#bbse_membership .zipcode .info4 li span.right {float:right;right:5px;margin-top:-10px;padding:2px 8px;background:#7b8eb8;color:#fff;}
+
+#bbse_membership .zipcode .error_box {color:#ed1c24;text-align:center;padding:5px 0;display:block;}
+
+#bbse_membership .login_btn_w {margin:15px 0;}
+#bbse_membership .login_btn {
+	cursor:pointer;
+	font-size:14px;
+	font-family:돋움;
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #e0e0e0) );
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #f0f0f0), color-stop(1, #e0e0e0) );
+	background:-moz-linear-gradient( center top, #f0f0f0 5%, #e0e0e0 100% );
+	background:-ms-linear-gradient( #f0f0f0 5%, #e0e0e0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f0f0f0', endColorstr='#e0e0e0');
+	background-color:#f0f0f0;
+	-webkit-border-top-left-radius:3px;
+	-moz-border-radius-topleft:3px;
+	border-top-left-radius:3px;
+	-webkit-border-top-right-radius:3px;
+	-moz-border-radius-topright:3px;
+	border-top-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-moz-border-radius-bottomright:3px;
+	border-bottom-right-radius:3px;
+	-webkit-border-bottom-right-radius:3px;
+	-moz-border-radius-bottomleft:3px;
+	border-bottom-left-radius:3px;
+	text-indent:0;
+	border:1px solid #e0e0e0;
+	display:inline-block;
+	color:#333;
+	font-weight:bold;
+	font-style:normal;
+	height:46px;
+	line-height:46px;
+	width:100%;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #fff;
+}
+#bbse_membership .login_btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #e0e0e0), color-stop(1, #f0f0f0) );
+	background:-moz-linear-gradient( center top, #e0e0e0 5%, #f0f0f0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e0e0e0', endColorstr='#f0f0f0');
+	background:-ms-linear-gradient( #e0e0e0 5%, #f0f0f0 100% );
+	background-color:#e0e0e0;
+}#bbse_membership .login_btn:active {
+	position:relative;
+	top:1px;
+}
+
+#bbse_membership .join_box{border:1px solid #dcdcdc;background:#fff;padding:20px 20px;margin:0 auto;}
+#bbse_membership .join_box div.star {background:url(../images/star.png) no-repeat 0 1px;padding-left:14px;font-size:12px;}
+
+#bbse_membership .form-element input,#bbse_membership .form-element textarea {border:1px solid #b7b7b7;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;background:#fff;font:14px "돋움",Tahoma;height:26px;color:#767676;margin:3px 0;vertical-align:middle;}
+#bbse_membership .form-element input {margin-right:3px;}
+#bbse_membership .form-element input.nor_s {width:100%}
+#bbse_membership .form-element input.nor {width:120px;}
+#bbse_membership .form-element input.nor_m {min-width:200px;width:100%}
+#bbse_membership .form-element input.nor_l {min-width:120px;width:100%}
+#bbse_membership .form-element textarea.nor_l {min-width:200px;width:100%;height:100px;}
+#bbse_membership .form-element  {border-bottom:1px solid #f4f4f4;padding:10px 0;}
+#bbse_membership .form-element label strong {  font-weight: bold;  line-height: 17px;  display: block; }
+#bbse_membership .form-element .meg {display: block;}
+#bbse_membership .form-element strong.star {background:url(../images/star.png) no-repeat 0 1px;padding-left:14px;}
+#bbse_membership .form-element strong span.star1 {font-size:11px; color:#888;font-weight:normal;margin-left:5px;}
+#bbse_membership .form-element .open_alert {text-align:center;display: block;color:#ed1c24;margin:15px 0;}
+#bbse_membership #join_frm .form-element .open_alert {text-align:left;margin:5px 0;}
+#bbse_membership .form-element label span.btn { padding:5px 10px;border:1px solid #b7b7b7;border-right-color:#e1e1e1;border-bottom-color:#e1e1e1;background:#999;display: inline-block; margin:3px 5px; font-size:12px;  }
+
+#bbse_membership ._btn {
+	cursor:pointer;
+	font-size:12px;
+	font-family:돋움;
+	-moz-box-shadow:inset 0px 0px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #97c4fe;
+	box-shadow:inset 0px 0px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #787878), color-stop(1, #626262) );
+	background:-moz-linear-gradient( center top, #787878 5%, #626262 100% );
+	background:-ms-linear-gradient( #787878 5%, #626262 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#787878', endColorstr='#626262');
+	background-color:#787878;
+	-webkit-border-top-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	border-top-left-radius:2px;
+	-webkit-border-top-right-radius:2px;
+	-moz-border-radius-topright:2px;
+	border-top-right-radius:2px;
+	-webkit-border-bottom-right-radius:2px;
+	-moz-border-radius-bottomright:2px;
+	border-bottom-right-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-bottom-left-radius:2px;
+	text-indent:0;
+	border:1px solid #717171;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:normal;
+	font-style:normal;
+	height:26px;
+	line-height:28px;
+	width:100px;
+	text-decoration:none;
+	text-align:center;
+	vertical-align:middle;
+	text-shadow:1px 1px 0px #585858;
+}
+#bbse_membership ._btn:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #626262), color-stop(1, #787878) );
+	background:-moz-linear-gradient( center top, #626262 5%, #787878 100% );
+	background:-ms-linear-gradient( #626262 5%, #787878 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#626262', endColorstr='#787878');
+	background-color:#626262;
+	color:#ffffff;
+}
+#bbse_membership ._btn:active {
+	position:relative;
+	top:1px;
+	color:#ffffff;
+}
+
+#bbse_membership .btn {width:100%;text-align:center;margin:15px 0;}
+#bbse_membership .btn_l {margin:15px 0;}
+
+#bbse_membership ._btn_c {
+	cursor:pointer;
+	font-size:14px;
+	font-family:돋움;
+	-moz-box-shadow:inset 0px 0px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 0px 0px 0px #97c4fe;
+	box-shadow:inset 0px 0px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-webkit-border-top-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	border-top-left-radius:2px;
+	-webkit-border-top-right-radius:2px;
+	-moz-border-radius-topright:2px;
+	border-top-right-radius:2px;
+	-webkit-border-bottom-right-radius:2px;
+	-moz-border-radius-bottomright:2px;
+	border-bottom-right-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-bottom-left-radius:2px;
+	text-indent:0;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-weight:bold;
+	font-style:normal;
+	height:36px;
+	line-height:32px;
+	width:200px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #1570cd;
+	margin:0 3px;
+}
+#bbse_membership ._btn_c:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+	color:#ffffff;
+}
+#bbse_membership ._btn_c:active {
+	position:relative;
+	top:1px;
+	color:#ffffff;
+}
+
+#bbse_membership .btn_d {
+	-moz-box-shadow:inset 0px 1px 0px 0px #828282;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #828282;
+	box-shadow:inset 0px 1px 0px 0px #828282;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #615f61), color-stop(1, #404040) );
+	background:-moz-linear-gradient( center top, #615f61 5%, #404040 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#615f61', endColorstr='#404040');
+	background-color:#615f61;
+	-webkit-border-top-left-radius:2px;
+	-moz-border-radius-topleft:2px;
+	border-top-left-radius:2px;
+	-webkit-border-top-right-radius:2px;
+	-moz-border-radius-topright:2px;
+	border-top-right-radius:2px;
+	-webkit-border-bottom-right-radius:2px;
+	-moz-border-radius-bottomright:2px;
+	border-bottom-right-radius:2px;
+	-webkit-border-bottom-left-radius:2px;
+	-moz-border-radius-bottomleft:2px;
+	border-bottom-left-radius:2px;
+	text-indent:0;
+	border:1px solid #ffffff;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial Black;
+	font-size:12px;
+	font-weight:normal;
+	font-style:normal;
+	height:28px;
+	line-height:28px;
+	width:80px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #616161;
+}
+.btn_d:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #404040), color-stop(1, #615f61) );
+	background:-moz-linear-gradient( center top, #404040 5%, #615f61 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#404040', endColorstr='#615f61');
+	background-color:#404040;
+}.btn_d:active {
+	position:relative;
+	top:1px;
+}
+
+/* 개인정보취급방침 */
+#bbse_membership .agree1{border:rgb(238,238,238) 1px solid;text-align:justify;padding:5px;background:rgb(255,255,255);height:120px;overflow:auto;margin-bottom:5px;}
+#bbse_membership .agree1 p{color:rgb(102,102,102);font-size-adjust:none;font-stretch:normal;}
